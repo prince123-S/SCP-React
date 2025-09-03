@@ -1,0 +1,6 @@
+.app-container {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  font-family: Arial, sans-serif;
+}

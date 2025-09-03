@@ -1,0 +1,20 @@
+.menu {
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.menu li.selected {
+  background-color: #ddd;
+  font-weight: bold;
+}

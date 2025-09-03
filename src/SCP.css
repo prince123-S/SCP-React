@@ -1,0 +1,15 @@
+.scp-details {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  flex: 1;
+}
+
+.scp-details h2 {
+  margin-bottom: 0.5rem;
+}
+
+.scp-details p {
+  margin-bottom: 0.5rem;
+}

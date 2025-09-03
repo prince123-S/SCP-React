@@ -1,13 +1,15 @@
-function SCP({selectedSCP})
-{
-    return(
-        <div>
-            <h2>{selectedSCP.item}</h2>
-            <h3>{selectedSCP.class}</h3>
-            <p><strong>Description: </strong>{selectedSCP.desc}</p>
-            <p><strong>Containment: </strong>{selectedSCP.containment}</p>
-        </div>
-    )
-}
+import React from "react";
+import "./SCP.css";
 
-export default SCP;
+export default function SCP({ scp }) {
+  if (!scp) return null;
+
+  return (
+    <div className="scp-details">
+      <h2>{scp.item}</h2>
+      <p><strong>Class:</strong> {scp.class}</p>
+      <p><strong>Description:</strong> {scp. description}</p>
+      <p><strong>Containment:</strong> {scp.containment}</p>
+    </div>
+  );
+}
